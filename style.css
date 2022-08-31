@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Jost&family=Maven+Pro:wght@500&family=Montserrat:wght@400;600&family=Paytone+One&family=Poppins:wght@200;500&family=Roboto&family=Russo+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: 
+    #f4f3f8;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 60px 20px 0px 20px;
+}
+#logo{
+    width: 150px;
+}
+#menuContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#menuContainer li{
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+#menuContainer li:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+/* section */
+section{
+    display: flex;
+    align-items: center;
+}
+#leftSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 55%;
+}
+
+#sectionList li{
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-1 -1 2 2'><circle r='0.5' /></svg>");
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#sectionList li::marker{
+    height: 40px;
+}
+
+
+#sectionList li h1{
+    font-size: 8rem;
+    font-weight: 600;
+}
+#sectionList li:nth-child(1)::marker{
+    font-size: 2rem;
+}
+button{
+    width: fit-content;
+}
+#flowerContainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 45%;
+}
+#flower{
+    width: 35vw;
+    margin-left: 50px;
+}
+#leftSectionBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 50px;
+}
+button{
+    padding: 20px 40px 20px 40px;
+    border-radius: 40px;
+    background-color: #466d50;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 80px 10px 80px 50px;
+    font-weight: 100;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    font-size: 1.2rem;
+}
+.card p{
+    font-size: 0.6rem;
+}
